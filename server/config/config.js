@@ -11,6 +11,6 @@ else if(env==='test')
 }
 else if(env=='production')
 {
-  process.env.PORT=3000;
+  
   process.env.MONGODB_URI='mongodb://<vnishant>:<nishant10>@ds259079.mlab.com:59079/todoapi';
 }
